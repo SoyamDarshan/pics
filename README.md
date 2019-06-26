@@ -66,3 +66,9 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+### Added 3rd party package 'axios' to handle network requests
+
+Whenever we make a request with axoios returns a 'promise'
+Promise will give some amount of notificaiton when a request is completed
