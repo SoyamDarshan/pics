@@ -1,19 +1,15 @@
 .image-list {
-   
-    display: grid;  
+    
+    display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-template-rows: minmax(200px auto) 400px minmax(300px, auto);  
-    grid-auto-rows: minmax(300px, auto);  
-    grid-gap: 20px;  
 
+    grid-gap: 10px;
+    grid-template-rows: min-content min-content auto min-content;
+    align-items: start;
+    margin: auto;
 }
 
 .image-list img {
     max-width: 100%;
         grid-auto-rows: minmax(min-content, max-content);
 }
-display: grid;
-grid-gap: 10px;
-grid-template-rows: min-content min-content auto min-content;
-align-items: start;
-margin: auto;
